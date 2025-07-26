@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       body {
+        background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+       }
+       
+
+       .container {
+        background-color: rgb(255, 255, 255);
+        height: 40rem;
+        width: 40rem;
+        border-radius: 20px;
+
+       }
+
+       .container img {
+        width: 10rem;
+        height: 10rem;
+        margin: 25px 0 0 0;
+        padding: 1px;
+        border-radius: 100%;
+       }
+       h1,h2,p{
+        margin: 0px;
+        padding: 10px;
+       }
+        
+         .btn-grad {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }  
+          .i{
+            gap: 3rem;
+          }
+          .button{
+            display: flex;
+            justify-content: center;
+          }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <img src="fael.jpg">
+            <button class="btn-grad">Apply me!</button>
+            <h1>Rafael Ramdhan</h1>
+            <h2>Fullstack Developer</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quam praesentium reiciendis a eaque, libero quisquam excepturi sapiente aut facere dolores debitis ut esse officia nam cupiditate fugit, repellat voluptatibus.</p>
+            <i class="fa-brands fa-linkedin fa-2xl" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i>
+            <i class="fa-brands fa-slack fa-2xl" style="color: #ff2600;"></i>
+
+            <div class="button">
+             <button class="btn-grad">Preview</button>
+             <button class="btn-grad">Contact Me!</button>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
