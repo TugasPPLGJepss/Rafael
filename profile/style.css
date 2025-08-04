@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none    ;
+    gap: 2rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header{
+    background-color: bisque;
+    color: white;
+    padding: 1rem;
+}
+nav a:hover {
+    color: black;
+}
